@@ -2,9 +2,8 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import os
 import time
-# os.startfile('C:\\Users\\Owner\\PycharmProjects\\SMADLAB\\ORBITAL\\Apollo_Ascent_Performance\\apollo.exe')
-# time.sleep(15)
-with open("C:\\Users\\Owner\\PycharmProjects\\SMADLAB\\ORBITAL\\Apollo_Ascent_Performance\\apollo.txt", "r+") as f:
+
+with open("YOUR OUTPUT TEXT FILE HERE", "r+") as f:
     old = f.read()  # read everything in the file
 
 
@@ -45,11 +44,11 @@ old = old.replace(" \n", "")
 old = old.replace("\n\n", "")
 # print(old)
 
-file1 = open("C:\\Users\\Owner\\PycharmProjects\\SMADLAB\\ORBITAL\\Apollo_Ascent_Performance\\apollo13.txt","w+")
+file1 = open("YOUR OUTPUT TEXT FILE HERE","w+")
 file1.readline()
 file1.write(old)
 file1.close()
-data = pd.read_csv('C:\\Users\\Owner\\PycharmProjects\\SMADLAB\\ORBITAL\\Apollo_Ascent_Performance\\apollo13.txt', sep=" ", header=None)
+data = pd.read_csv("YOUR OUTPUT TEXT FILE HERE", sep=" ", header=None)
 data.columns = ["Null", "Time", "Accel", "Vel", "Height", "HorizDist", "Alpha", "Beta", "Theta", "Pq", "M0+Me"]
 del data['Null']
 Time = data["Time"]

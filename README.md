@@ -1,7 +1,7 @@
 This is the beginning of the Space Mission Trajectory Tools Repo!
 
+The intent of this project is to improve on existing open-source software packages, some of which are shown below
 
-ORBITAL MECHANICS AND CONTROLS:
 GMAT - NASA Orbital mechanics design tool,
 
 42 - NASA Attitude mechanics simulator tool,

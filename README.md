@@ -11,3 +11,7 @@ Orbit Determination Tool Box
 Orbiter Space simulator (Note, source code not allowed to be modified, check license)
 
 Kerbal has a python API
+
+[Poliastro](https://github.com/poliastro/poliastro)
+
+[Astropy](https://www.astropy.org/)

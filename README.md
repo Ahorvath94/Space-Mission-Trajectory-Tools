@@ -1,6 +1,7 @@
-This is the beginning of the Space Mission Trajectory Tools Repo!
+###This is the beginning of the Space Mission Trajectory Tools Repo!
 
-The intent of this project is to improve on existing open-source software packages, some of which are shown below
+##The intent of this project is to improve on existing open-source software packages, some of which are shown below:
+
 
 GMAT - NASA Orbital mechanics design tool,
 
@@ -10,7 +11,7 @@ Orbit Determination Tool Box
 
 Orbiter Space simulator (Note, source code not allowed to be modified, check license)
 
-Kerbal has a python API
+Kerbal python API
 
 [Poliastro](https://github.com/poliastro/poliastro)
 
